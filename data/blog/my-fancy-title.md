@@ -3,7 +3,7 @@ title: Hello, World!
 date: '2022-04-11'
 tags: ['pearl']
 draft: false
-summary:
+summary: The beginnings of a new blog.
 ---
 
 # The beginnings

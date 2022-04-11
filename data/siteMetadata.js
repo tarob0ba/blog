@@ -1,21 +1,18 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'The Pearl',
+  author: 'Beckett Normington',
+  headerTitle: 'The Pearl',
+  description: 'The ramblings and tutorials of a boba fanatic.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://b0ba.dev',
+  siteRepo: 'https://github.com/tarob0ba/blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'beckett@b0ba.dev',
+  github: 'https://github.com/tarob0ba',
+  twitter: 'https://twitter.com/tarob0ba',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -52,7 +49,7 @@ const siteMetadata = {
       // transparent_dark, preferred_color_scheme, custom
       theme: 'light',
       // Place the comment box above the comments. options: bottom, top
-      inputPosition: 'bottom',
+      inputPosition: 'top',
       // Choose the language giscus will be displayed in. options: en, es, zh-CN, zh-TW, ko, ja etc
       lang: 'en',
       // theme when dark mode

@@ -1,16 +1,13 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Beckett Normington
+avatar: /static/images/avatar.jpg
+occupation: Boring developer
+company: Domino
+email: beckett@chatter-social.com
+twitter: https://twitter.com/tarob0ba
+github: https://github.com/tarob0ba
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Beckett Normington is a boring developer, boba fanatic, and village idiot.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+He is proficient in JavaScript, CSS, HTML, Python, and is learning Rust. He is also a proud father of a magnificent yucca tree, named "Yucca".
