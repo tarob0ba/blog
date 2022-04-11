@@ -4,7 +4,7 @@ avatar: /static/images/avatar.jpg
 occupation: Boring developer
 company: Domino
 email: beckett@chatter-social.com
-twitter: https://twitter.com/tarob0ba
+twitter: https://twitter.com/tarob0ba_
 github: https://github.com/tarob0ba
 ---
 
