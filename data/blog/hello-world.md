@@ -1,7 +1,7 @@
 ---
 title: Hello, World!
 date: '2022-04-11'
-tags: ['pearl']
+tags: ['the pearl']
 draft: false
 summary: The beginnings of a new blog.
 ---
@@ -19,3 +19,7 @@ If you're interested, come back to the site at a later time and I will have an a
 
 At the moment, there is no way for you to support my work. The best you can do is take a look at my projects and give me feedback so that I can make them better.
 Positive or negative, it's all valuable.
+
+```javascript
+console.log(`Have a ${positiveAdjective} day!);
+```
