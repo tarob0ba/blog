@@ -1,7 +1,7 @@
 ---
 title: Hello, World!
 date: '2022-04-11'
-tags: ['the pearl']
+tags: ['blog', 'newsletter', 'support']
 draft: false
 summary: The beginnings of a new blog.
 ---
@@ -12,7 +12,7 @@ Today marks the debut of The Pearl, my new blog. This blog is a home for my tech
 
 # Newsletter
 
-In the near future, I will be starting my newsletter. It will also be called The Pearl in order to confuse everyone (including myself). 
+In the near future, I will be starting my newsletter. It will also be called The Pearl in order to confuse everyone (including myself).
 If you're interested, come back to the site at a later time and I will have an announcement.
 
 # How to support my work
@@ -21,5 +21,5 @@ At the moment, there is no way for you to support my work. The best you can do i
 Positive or negative, it's all valuable.
 
 ```javascript
-console.log(`Have a ${positiveAdjective} day!);
+console.log(`Have a ${Math.random() > 0.5 ? 'wonderful' : 'great'} day!`)
 ```

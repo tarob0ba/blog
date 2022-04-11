@@ -1,140 +1,162 @@
-/**
- * CSS Styles for code highlighting.
- * Feel free to customize token styles 
- * by copying from a prismjs compatible theme:
- * https://github.com/PrismJS/prism-themes
- */
-
-/* Code title styles */
-.remark-code-title {
-  @apply rounded-t bg-gray-700 px-5 py-3 font-mono text-sm font-bold text-gray-200;
-}
-
-.remark-code-title + div > pre {
-  @apply mt-0 rounded-t-none;
-}
-
-/* Code block styles */
-.code-highlight {
-  @apply float-left min-w-full;
-}
-
-.code-line {
-  @apply -mx-4 block border-l-4 border-transparent pl-4 pr-4;
-}
-
-.code-line.inserted {
-  @apply bg-green-500 bg-opacity-20;
-}
-
-.code-line.deleted {
-  @apply bg-red-500 bg-opacity-20;
-}
-
-.highlight-line {
-  @apply -mx-4 border-l-4 border-primary-500  bg-gray-700 bg-opacity-50;
-}
-
-.line-number::before {
-  @apply mr-4 -ml-2 inline-block w-4 text-right text-gray-400;
-  content: attr(line);
-}
-
-/* Token styles */
-/**
- * MIT License
- * Copyright (c) 2018 Sarah Drasner
- * Sarah Drasner's[@sdras] Night Owl
- * Ported by Sara vieria [@SaraVieira]
- * Added by Souvik Mandal [@SimpleIndian]
- */
 .token.comment,
 .token.prolog,
 .token.cdata {
-  color: rgb(99, 119, 119);
-  font-style: italic;
+  color: hsl(220, 10%, 40%);
 }
 
-.token.punctuation {
-  color: rgb(199, 146, 234);
-}
-
-.namespace {
-  color: rgb(178, 204, 214);
-}
-
-.token.deleted {
-  color: rgba(239, 83, 80, 0.56);
-  font-style: italic;
-}
-
-.token.symbol,
-.token.property {
-  color: rgb(128, 203, 196);
-}
-
-.token.tag,
-.token.operator,
-.token.keyword {
-  color: rgb(127, 219, 202);
-}
-
-.token.boolean {
-  color: rgb(255, 88, 116);
-}
-
-.token.number {
-  color: rgb(247, 140, 108);
-}
-
-.token.constant,
-.token.function,
-.token.builtin,
-.token.char {
-  color: rgb(130, 170, 255);
-}
-
-.token.selector,
-.token.doctype {
-  color: rgb(199, 146, 234);
-  font-style: italic;
+.token.doctype,
+.token.punctuation,
+.token.entity {
+  color: hsl(220, 14%, 71%);
 }
 
 .token.attr-name,
-.token.inserted {
-  color: rgb(173, 219, 103);
+.token.class-name,
+.token.boolean,
+.token.constant,
+.token.number,
+.token.atrule {
+  color: hsl(29, 54%, 61%);
+}
+
+.token.keyword {
+  color: hsl(286, 60%, 67%);
+}
+
+.token.property,
+.token.tag,
+.token.symbol,
+.token.deleted,
+.token.important {
+  color: hsl(355, 65%, 65%);
+}
+
+.token.selector,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted,
+.token.regex,
+.token.attr-value,
+.token.attr-value > .token.punctuation {
+  color: hsl(95, 38%, 62%);
+}
+
+.token.variable,
+.token.operator,
+.token.function {
+  color: hsl(207, 82%, 66%);
+}
+
+.token.url {
+  color: hsl(187, 47%, 55%);
+}
+
+/* HTML overrides */
+.token.attr-value > .token.punctuation.attr-equals,
+.token.special-attr > .token.attr-value > .token.value.css {
+  color: hsl(220, 14%, 71%);
+}
+
+/* CSS overrides */
+.language-css .token.selector {
+  color: hsl(355, 65%, 65%);
+}
+
+.language-css .token.property {
+  color: hsl(220, 14%, 71%);
+}
+
+.language-css .token.function,
+.language-css .token.url > .token.function {
+  color: hsl(187, 47%, 55%);
+}
+
+.language-css .token.url > .token.string.url {
+  color: hsl(95, 38%, 62%);
+}
+
+.language-css .token.important,
+.language-css .token.atrule .token.rule {
+  color: hsl(286, 60%, 67%);
+}
+
+/* JS overrides */
+.language-javascript .token.operator {
+  color: hsl(286, 60%, 67%);
+}
+
+.language-javascript
+  .token.template-string
+  > .token.interpolation
+  > .token.interpolation-punctuation.punctuation {
+  color: hsl(5, 48%, 51%);
+}
+
+/* JSON overrides */
+.language-json .token.operator {
+  color: hsl(220, 14%, 71%);
+}
+
+.language-json .token.null.keyword {
+  color: hsl(29, 54%, 61%);
+}
+
+/* MD overrides */
+.language-markdown .token.url,
+.language-markdown .token.url > .token.operator,
+.language-markdown .token.url-reference.url > .token.string {
+  color: hsl(220, 14%, 71%);
+}
+
+.language-markdown .token.url > .token.content {
+  color: hsl(207, 82%, 66%);
+}
+
+.language-markdown .token.url > .token.url,
+.language-markdown .token.url-reference.url {
+  color: hsl(187, 47%, 55%);
+}
+
+.language-markdown .token.blockquote.punctuation,
+.language-markdown .token.hr.punctuation {
+  color: hsl(220, 10%, 40%);
   font-style: italic;
 }
 
-.token.string,
-.token.url,
-.token.entity,
-.language-css .token.string,
-.style .token.string {
-  color: rgb(173, 219, 103);
+.language-markdown .token.code-snippet {
+  color: hsl(95, 38%, 62%);
 }
 
-.token.class-name,
-.token.atrule,
-.token.attr-value {
-  color: rgb(255, 203, 139);
+.language-markdown .token.bold .token.content {
+  color: hsl(29, 54%, 61%);
 }
 
-.token.regex,
-.token.important,
-.token.variable {
-  color: rgb(214, 222, 235);
+.language-markdown .token.italic .token.content {
+  color: hsl(286, 60%, 67%);
 }
 
-.token.important,
+.language-markdown .token.strike .token.content,
+.language-markdown .token.strike .token.punctuation,
+.language-markdown .token.list.punctuation,
+.language-markdown .token.title.important > .token.punctuation {
+  color: hsl(355, 65%, 65%);
+}
+
+/* General */
 .token.bold {
   font-weight: bold;
 }
 
+.token.comment,
 .token.italic {
   font-style: italic;
 }
 
-.token.table {
-  display: inline;
+.token.entity {
+  cursor: help;
+}
+
+.token.namespace {
+  opacity: 0.8;
 }
