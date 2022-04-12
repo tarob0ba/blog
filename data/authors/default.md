@@ -1,9 +1,9 @@
 ---
 name: Beckett Normington
 avatar: /static/images/avatar.jpg
-occupation: Boring developer
-company: Domino
-email: beckett@chatter-social.com
+occupation: Front-end developer
+company: Self-employed
+email: beckett@b0ba.dev
 twitter: https://twitter.com/tarob0ba_
 github: https://github.com/tarob0ba
 ---

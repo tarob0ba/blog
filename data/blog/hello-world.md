@@ -8,7 +8,7 @@ summary: The beginnings of a new blog.
 
 # The beginnings
 
-Today marks the debut of The Pearl, my new blog. This blog is a home for my tech ramblings, complaints, and the occasional tutorial. If you couldn't guess, the name comes tapioca pearls, the foundation of bubble tea (boba).
+Today marks the debut of The Pearl, my new blog. This blog is a home for my tech ramblings, complaints, and the occasional tutorial. If you couldn't guess, the name comes from tapioca pearls, the foundation of bubble tea (boba).
 
 # Newsletter
 
