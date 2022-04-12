@@ -1,7 +1,7 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href }) => (
+const Card = ({ title, description, imgSrc, href, alt }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
     <div
       className={`${
@@ -12,7 +12,7 @@ const Card = ({ title, description, imgSrc, href }) => (
         (href ? (
           <Link href={href} aria-label={`Link to ${title}`}>
             <Image
-              alt={title}
+              alt={alt}
               src={imgSrc}
               className="object-cover object-center md:h-36 lg:h-48"
               width={544}
@@ -21,7 +21,7 @@ const Card = ({ title, description, imgSrc, href }) => (
           </Link>
         ) : (
           <Image
-            alt={title}
+            alt={alt}
             src={imgSrc}
             className="object-cover object-center md:h-36 lg:h-48"
             width={544}
