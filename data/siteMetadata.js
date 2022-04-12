@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'The Pearl',
   author: 'Beckett Normington',
   headerTitle: 'The Pearl',
-  description: 'The ramblings and tutorials of a boba fanatic.',
+  description: 'The ramblings, tutorials, and general writing of a boba fanatic.🧋',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://b0ba.dev',
