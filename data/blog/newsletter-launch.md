@@ -12,5 +12,5 @@ Setting up the blog was a breeze thanks to Buttondown's great documentation. Wit
 
 I'm very excited about this and I can't wait to write for you all.
 
-Best,
+Best,<br />
 Beckett🧋
