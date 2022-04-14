@@ -1,5 +1,5 @@
 ---
-title: Reasons I like TailwindCSS
+title: Why I like TailwindCSS
 date: '2022-04-14'
 tags: ['tailwind', 'css']
 draft: false
