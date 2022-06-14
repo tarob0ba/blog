@@ -1,7 +1,7 @@
 ---
 title: Phone hunting
 date: '2022-04-12'
-tags: ['phones', 'apple', 'AT&T']
+tags: ['phones', 'apple']
 draft: false
 summary: Depending on what you are looking for and who it is for, phone hunting can be a nightmare.
 ---
