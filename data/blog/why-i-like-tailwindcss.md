@@ -6,11 +6,11 @@ draft: false
 summary: While it's not perfect, Tailwind is my favorite CSS framework. Here's why.
 ---
 
-# What is Tailwind?
+## What is Tailwind?
 
 Tailwind is a utility-first CSS framework. It was first introduced in 2019 and over time, it has grown a substantial amount of traction due to the appeal of the ability to have low level control over your HTML. Another useful feature is the elimination of default styles which gives the developer a blank canvas to work from. Due to its flexibility, it has rapidly become a big player in the world of CSS frameworks.
 
-# Why I like Tailwind
+## Why I like Tailwind
 
 I like Tailwind for three major reasons:
 
@@ -25,7 +25,7 @@ I like Tailwind for three major reasons:
 
 For these reasons, I choose to use Tailwind for development. Additionally, Tailwind adds of touch of modernity to websites developed with the clean font.
 
-# Tailwind might not work for you
+## Tailwind might not work for you
 
 As with anything, there are downsides to Tailwind and it isn't the best tool for everyone. For one, build sizes can be atrocious depending on your purge config. Additionally, some of the class names are inconsistent and confusing which can slow down development. Finally, once you start using Tailwind for a project, it becomes very difficult to convert it back to traditional semantic CSS.
 
