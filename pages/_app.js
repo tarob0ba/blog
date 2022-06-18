@@ -20,6 +20,7 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script defer src="https://app.tinyanalytics.io/pixel/RxnrQZtXaQbIMxsv"></script>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
